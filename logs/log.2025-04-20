@@ -1,0 +1,22 @@
+[2025-04-20T18:02:20.094] [ERROR] error - 数据库连接失败
+[2025-04-20T21:33:18.564] [ERROR] error - TypeError: (intermediate value).lean is not a function
+    at D:\科研\manager-server\routes\menus.js:12:44
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\科研\manager-server\app.js:40:3
+    at async serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-20T21:33:37.883] [ERROR] error - TypeError: (intermediate value).lean is not a function
+    at D:\科研\manager-server\routes\menus.js:12:44
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\科研\manager-server\app.js:40:3
+    at async serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-20T21:33:44.566] [ERROR] error - TypeError: (intermediate value).lean is not a function
+    at D:\科研\manager-server\routes\menus.js:12:44
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\科研\manager-server\app.js:40:3
+    at async serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)

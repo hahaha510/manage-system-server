@@ -1,0 +1,137 @@
+[2025-04-24T14:42:10.935] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'query')
+    at D:\科研\manager-server\routes\leaves.js:10:38
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (D:\科研\manager-server\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (D:\科研\manager-server\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+[2025-04-24T14:42:15.967] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'query')
+    at D:\科研\manager-server\routes\leaves.js:10:38
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (D:\科研\manager-server\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (D:\科研\manager-server\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+[2025-04-24T14:42:51.506] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'query')
+    at D:\科研\manager-server\routes\leaves.js:10:38
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (D:\科研\manager-server\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (D:\科研\manager-server\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+[2025-04-24T14:44:53.951] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at get length [as length] (D:\科研\manager-server\node_modules\koa\lib\response.js:216:35)
+    at logger (D:\科研\manager-server\node_modules\koa-logger\index.js:77:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-24T14:45:08.893] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at get length [as length] (D:\科研\manager-server\node_modules\koa\lib\response.js:216:35)
+    at logger (D:\科研\manager-server\node_modules\koa-logger\index.js:77:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-24T14:48:32.522] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at get length [as length] (D:\科研\manager-server\node_modules\koa\lib\response.js:216:35)
+    at logger (D:\科研\manager-server\node_modules\koa-logger\index.js:77:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-24T20:25:55.065] [ERROR] error - TypeError: Cannot read properties of null (reading 'userName')
+    at D:\科研\manager-server\routes\leaves.js:52:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\科研\manager-server\app.js:43:3
+    at async serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-24T20:25:55.812] [ERROR] error - TypeError: Cannot read properties of null (reading 'userName')
+    at D:\科研\manager-server\routes\leaves.js:52:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\科研\manager-server\app.js:43:3
+    at async serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-24T20:25:55.976] [ERROR] error - TypeError: Cannot read properties of null (reading 'userName')
+    at D:\科研\manager-server\routes\leaves.js:52:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\科研\manager-server\app.js:43:3
+    at async serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-24T20:26:42.632] [ERROR] error - TypeError: Cannot read properties of null (reading 'userName')
+    at D:\科研\manager-server\routes\leaves.js:52:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\科研\manager-server\app.js:43:3
+    at async serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-24T20:27:21.608] [ERROR] error - TypeError: Cannot read properties of null (reading 'userName')
+    at D:\科研\manager-server\routes\leaves.js:52:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\科研\manager-server\app.js:43:3
+    at async serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-24T20:27:27.884] [ERROR] error - TypeError: Cannot read properties of null (reading 'userName')
+    at D:\科研\manager-server\routes\leaves.js:52:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\科研\manager-server\app.js:43:3
+    at async serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-24T20:29:24.070] [ERROR] error - TypeError: Cannot read properties of null (reading 'userName')
+    at D:\科研\manager-server\routes\leaves.js:53:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\科研\manager-server\app.js:43:3
+    at async serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-24T20:30:34.296] [ERROR] error - TypeError: Cannot read properties of null (reading 'userName')
+    at D:\科研\manager-server\routes\leaves.js:54:27
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async D:\科研\manager-server\app.js:43:3
+    at async serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:9)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)

@@ -1,0 +1,232 @@
+[2025-04-14T10:35:50.751] [ERROR] error - TypeError: Cannot read properties of undefined (reading 'header')
+    at D:\科研\manager-server\app.js:39:29
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at D:\科研\manager-server\app.js:34:9
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at views (D:\科研\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:15)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-14T10:36:38.892] [ERROR] error - JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:70:17)
+    at D:\科研\manager-server\app.js:40:23
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at D:\科研\manager-server\app.js:34:9
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at views (D:\科研\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:15)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-14T10:38:33.451] [ERROR] error - JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:70:17)
+    at D:\科研\manager-server\app.js:40:23
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at D:\科研\manager-server\app.js:34:9
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at views (D:\科研\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:15)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-14T10:39:28.290] [ERROR] error - JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:70:17)
+    at D:\科研\manager-server\app.js:42:23
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at D:\科研\manager-server\app.js:34:9
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at views (D:\科研\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:15)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-14T10:39:58.229] [ERROR] error - JsonWebTokenError: jwt malformed
+    at module.exports [as verify] (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:70:17)
+    at D:\科研\manager-server\app.js:40:23
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at D:\科研\manager-server\app.js:34:9
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at views (D:\科研\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:15)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-14T10:49:38.872] [ERROR] error - JsonWebTokenError: jwt must be provided
+    at module.exports [as verify] (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:60:17)
+    at D:\科研\manager-server\app.js:41:23
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at D:\科研\manager-server\app.js:34:9
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at views (D:\科研\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:15)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-14T10:49:42.339] [ERROR] error - JsonWebTokenError: jwt must be provided
+    at module.exports [as verify] (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:60:17)
+    at D:\科研\manager-server\app.js:41:23
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at D:\科研\manager-server\app.js:34:9
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at views (D:\科研\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:15)
+    at async logger (D:\科研\manager-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-14T10:58:28.776] [ERROR] error - TokenExpiredError: jwt expired
+    at D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:101:10)
+    at D:\科研\manager-server\app.js:41:23
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at D:\科研\manager-server\app.js:34:9
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at views (D:\科研\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:15) {
+  expiredAt: 2025-04-14T02:45:04.000Z
+}
+[2025-04-14T11:00:00.210] [ERROR] error - TokenExpiredError: jwt expired
+    at D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:101:10)
+    at D:\科研\manager-server\app.js:41:23
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at D:\科研\manager-server\app.js:34:9
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at views (D:\科研\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:15) {
+  expiredAt: 2025-04-14T02:45:04.000Z
+}
+[2025-04-14T11:19:29.698] [ERROR] error - TokenExpiredError: jwt expired
+    at D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:101:10)
+    at D:\科研\manager-server\app.js:40:23
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at D:\科研\manager-server\app.js:34:9
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at views (D:\科研\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:15) {
+  expiredAt: 2025-04-14T03:01:31.000Z
+}
+[2025-04-14T12:44:18.220] [ERROR] error - TokenExpiredError: jwt expired
+    at D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:101:10)
+    at D:\科研\manager-server\app.js:41:23
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at D:\科研\manager-server\app.js:36:9
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at views (D:\科研\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:15) {
+  expiredAt: 2025-04-14T03:20:34.000Z
+}
+[2025-04-14T12:44:22.692] [ERROR] error - TokenExpiredError: jwt expired
+    at D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:101:10)
+    at D:\科研\manager-server\app.js:41:23
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at D:\科研\manager-server\app.js:36:9
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at views (D:\科研\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:15) {
+  expiredAt: 2025-04-14T03:20:34.000Z
+}
+[2025-04-14T16:10:43.156] [ERROR] error - TokenExpiredError: jwt expired
+    at D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:190:21
+    at getSecret (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:97:14)
+    at module.exports [as verify] (D:\科研\manager-server\node_modules\jsonwebtoken\verify.js:101:10)
+    at D:\科研\manager-server\app.js:42:23
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at D:\科研\manager-server\app.js:37:9
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at views (D:\科研\manager-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-compose\index.js:42:32)
+    at serve (D:\科研\manager-server\node_modules\koa-static\index.js:53:15) {
+  expiredAt: 2025-04-14T03:20:34.000Z
+}

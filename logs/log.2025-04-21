@@ -1,0 +1,27 @@
+[2025-04-21T20:09:38.947] [ERROR] error - TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle
+    at JSON.stringify (<anonymous>)
+    at get length [as length] (D:\科研\manager-server\node_modules\koa\lib\response.js:216:35)
+    at logger (D:\科研\manager-server\node_modules\koa-logger\index.js:77:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async bodyParser (D:\科研\manager-server\node_modules\koa-bodyparser\index.js:78:5)
+[2025-04-21T21:23:33.897] [ERROR] error - ReferenceError: ctx is not defined
+    at D:\科研\manager-server\routes\roles.js:62:35
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (D:\科研\manager-server\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at allowedMethods (D:\科研\manager-server\node_modules\koa-router\lib\router.js:407:12)
+    at dispatch (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\科研\manager-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\科研\manager-server\node_modules\koa-router\lib\router.js:346:16
