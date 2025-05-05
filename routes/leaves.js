@@ -2,8 +2,10 @@ const router = require("koa-router")();
 const Leave = require("../models/leaveSchema");
 const Dept = require("../models/deptSchema");
 const util = require("./../utils/util");
-const jwt = require("jsonwebtoken");
-const md5 = require("md5");
+const multiparty = require("multiparty");
+const path = require("path");
+const UPLOAD_DIR = path.resolve(__dirname, "uploads");
+const fse = require("fs-extra");
 router.prefix("/leave");
 
 // 按页获取角色列表
@@ -147,6 +149,97 @@ router.get("/count", async (ctx) => {
     ctx.body = util.success(total);
   } catch (error) {
     ctx.body = util.fail(`查询异常:${error.message}`);
+  }
+});
+router.post("/upload", (ctx) => {
+  return new Promise((resolve) => {
+    const form = new multiparty.Form();
+    form.parse(ctx.req, async (err, fields, files) => {
+      if (err) {
+        ctx.body = util.fail("文件上传失败,请重新上传");
+        resolve();
+        return;
+      }
+      try {
+        const fileHash = fields["fileHash"][0];
+        const chunkHash = fields["chunkHash"][0];
+        // 临时存放目录
+        const chunkPath = path.resolve(UPLOAD_DIR, fileHash);
+        if (!fse.existsSync(chunkPath)) {
+          await fse.mkdir(chunkPath);
+        }
+        const oldPath = files["chunk"][0]["path"];
+        await fse.move(oldPath, path.resolve(chunkPath, chunkHash));
+        ctx.body = util.success();
+      } catch (error) {
+        ctx.body = util.fail(error.stack);
+      }
+      resolve();
+    });
+  });
+});
+router.post("/merge", async (ctx) => {
+  const { fileHash, fileName, size } = ctx.request.body;
+
+  // 如果文件已经存在,就没有必要再进行合并
+  const filePath = path.resolve(
+    UPLOAD_DIR,
+    fileHash + util.extractExt(fileName)
+  );
+  if (fse.existsSync(filePath)) {
+    ctx.body = util.success("", "合并成功");
+    return;
+  }
+  // 如果不存在文件则需要去合并
+  const chunkDir = path.resolve(UPLOAD_DIR, fileHash);
+  if (!fse.existsSync(chunkDir)) {
+    ctx.body = util.fail("文件不存在,请重新上传");
+    return;
+  }
+  // 执行合并操作
+  // 拿到所有切片文件名数组
+  const chunkPaths = await fse.readdir(chunkDir);
+  chunkPaths.sort((a, b) => a.split("-")[1] - b.split("-")[1]);
+  // 依次写入到文件中
+  const list = chunkPaths.map((chunkName, index) => {
+    return new Promise((resolve) => {
+      const chunkPath = path.resolve(chunkDir, chunkName);
+      const readStream = fse.createReadStream(chunkPath);
+      const writeStream = fse.createWriteStream(filePath, {
+        start: index * size,
+        end: (index + 1) * size,
+      });
+      readStream.on("end", async () => {
+        // 删除文件
+        await fse.unlink(chunkPath);
+        resolve();
+      });
+      readStream.pipe(writeStream);
+    });
+  });
+  await Promise.all(list);
+  fse.remove(chunkDir);
+  ctx.body = util.success();
+});
+router.post("/verify", async (ctx) => {
+  const { fileHash, fileName } = ctx.request.body;
+  const filePath = path.resolve(
+    UPLOAD_DIR,
+    fileHash + util.extractExt(fileName)
+  );
+  // 获取已经上传到服务器的切片
+  const chunkDir = path.resolve(UPLOAD_DIR, fileHash);
+  let chunkPaths = [];
+  if (fse.existsSync(chunkDir)) {
+    chunkPaths = await fse.readdir(chunkDir);
+  }
+
+  // 如果文件存在不需要上传
+  if (fse.existsSync(filePath)) {
+    ctx.body = util.success({ shouldUpload: false });
+  } else {
+    // 如果文件不存在,则需要上传
+    ctx.body = util.success({ shouldUpload: true, existChunks: chunkPaths });
   }
 });
 module.exports = router;

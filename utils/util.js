@@ -99,4 +99,8 @@ module.exports = {
     }
     return fmt;
   },
+  // 提取文件后缀
+  extractExt(filename) {
+    return filename.slice(filename.lastIndexOf("."), filename.length);
+  },
 };
